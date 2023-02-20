@@ -1,20 +1,13 @@
 ========
-Overview
+HIREZAPI
 ========
 
 .. start-badges
 
-.. list-table::
-    :stub-columns: 1
+|docs| |github-actions| |version| |wheel| 
 
-    * - docs
-      - |docs|
-    * - tests
-      - | |github-actions|
-        | |codecov|
-    * - package
-      - | |version| |wheel| |supported-versions| |supported-implementations|
-        | |commits-since|
+|supported-versions| |supported-implementations| |commits-since| |PyPI download total|
+
 .. |docs| image:: https://readthedocs.org/projects/hirezapi/badge/?style=flat
     :target: https://hirezapi.readthedocs.io/
     :alt: Documentation Status
@@ -22,10 +15,6 @@ Overview
 .. |github-actions| image:: https://github.com/AidanJohnston/hirezapi/actions/workflows/github-actions.yml/badge.svg
     :alt: GitHub Actions Build Status
     :target: https://github.com/AidanJohnston/hirezapi/actions
-
-.. |codecov| image:: https://codecov.io/gh/AidanJohnston/hirezapi/branch/main/graphs/badge.svg?branch=main
-    :alt: Coverage Status
-    :target: https://codecov.io/github/AidanJohnston/hirezapi
 
 .. |version| image:: https://img.shields.io/pypi/v/hirezapi.svg
     :alt: PyPI Package latest release
@@ -47,16 +36,18 @@ Overview
     :alt: Commits since latest release
     :target: https://github.com/AidanJohnston/hirezapi/compare/v0.0.0...main
 
-
+.. |PyPI download total| image:: https://img.shields.io/pypi/dm/hirezapi
+   :alt: PyPI - Downloads
+   :target: https://pypi.org/project/hirezapi/
 
 .. end-badges
 
-An example package. Generated with cookiecutter-pylibrary.
+A small python wrapper for the Hi-Rez Studios API.
 
 * Free software: MIT license
 
 Installation
-============
+------------
 
 ::
 
@@ -68,14 +59,13 @@ You can also install the in-development version with::
 
 
 Documentation
-=============
-
+-------------
 
 https://hirezapi.readthedocs.io/
 
 
 Development
-===========
+-----------
 
 To run all the tests run::
 
