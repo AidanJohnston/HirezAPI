@@ -1,2 +1,0 @@
-class HirezAPI():
-    pass

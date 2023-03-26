@@ -43,9 +43,9 @@ To set up `hirezapi` for local development:
 
     git clone git@github.com:YOURGITHUBNAME/hirezapi.git
 
-3. Create a branch for local development::
+3. Create a branch for local development off of ``dev``::
 
-    git checkout -b name-of-your-bugfix-or-feature
+    git checkout -b name-of-your-bugfix-or-feature dev
 
    Now you can make your changes locally.
 
@@ -59,7 +59,9 @@ To set up `hirezapi` for local development:
     git commit -m "Your detailed description of your changes."
     git push origin name-of-your-bugfix-or-feature
 
-6. Submit a pull request through the GitHub website.
+6. Submit a pull request through the GitHub website into dev.
+
+7. When a new release is ready, the projects maintainers will make a PR from ``dev`` into ``main``.
 
 Pull Request Guidelines
 -----------------------
@@ -70,8 +72,7 @@ For merging, you should:
 
 1. Include passing tests (run ``tox``).
 2. Update documentation when there's new API, functionality etc.
-3. Add a note to ``CHANGELOG.rst`` about the changes.
-4. Add yourself to ``AUTHORS.rst``.
+3. Add yourself to ``AUTHORS.rst``.
 
 
 

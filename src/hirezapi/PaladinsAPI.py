@@ -1,5 +1,5 @@
-from hirezapi import HirezAPI
+from .HiRezAPI import HiRezAPI
 
 
-class PaladinsAPI(HirezAPI):
+class PaladinsAPI(HiRezAPI):
     pass
