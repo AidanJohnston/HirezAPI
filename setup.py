@@ -21,7 +21,7 @@ setup(
     name='hirezapi',
     version='0.0.2',
     license='MIT',
-    description='An example package. Generated with cookiecutter-pylibrary.',
+    description='Python wrapper for the Hi-Rez Studios API (Smite, Paladins, Realm Royal, Divine Knockout)',
     long_description='{}\n{}'.format(
         re.compile('^.. start-badges.*^.. end-badges', re.M | re.S).sub('', read('README.rst')),
         re.sub(':[a-z]+:`~?(.*?)`', r'``\1``', read('CHANGELOG.rst')),
